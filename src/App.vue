@@ -1,5 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <h1>Hello, I am in App.vue</h1>
   <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
@@ -14,7 +15,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,5 +23,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1 {
+  color: purple;
 }
 </style>
